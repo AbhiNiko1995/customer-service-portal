@@ -24,9 +24,6 @@ const [anchorEl, setAnchorEl] = useState(null);
           <Typography variant="h6" style={{ flexGrow: 1 }}>
             Customer Service Portal
           </Typography>
-          {/* <Button color="inherit" onClick={() => setUser(null)}>
-            Logout
-          </Button> */}
            <IconButton onClick={handleMenuOpen} size="small">
             <Avatar>
               <AccountCircleIcon />

@@ -44,8 +44,8 @@ function Login({ setUser }) {
             onChange={(e) => setUsername(e.target.value)}
             style={{ marginBottom: "10px" }}
             sx={{
-                input: { color: "#ddd" }, // Light text color
-                label: { color: "#bbb" }, // Light label color
+                input: { color: "#ddd" },
+                label: { color: "#bbb" }, 
                 "& .MuiOutlinedInput-root": {
                   "&::placeholder": {
                     color: "white",
